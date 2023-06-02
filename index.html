@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assest/style.css">
   <title>Tienda de Muebles</title>
 </head>
+
 <body>
   <header>
     <nav>
       <ul>
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
         <li><a href="./assest/contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
-<main>
-  <section class="banner">
-    <h1>Bienvenido a nuestra tienda de muebles</h1>
-    <p>Encuentra los mejores diseños y estilos para tu hogar</p>
-    <a href="#" class="btn">Explorar</a>
-  </section>
+  <main>
+    <section class="banner">
+      <h1>Bienvenido a nuestra tienda de muebles</h1>
+      <p>Encuentra los mejores diseños y estilos para tu hogar</p>
+      <a href="#" class="btn">Explorar</a>
+    </section>
 
-  <section class="productos">
-    <h2>Nuestros productos</h2>
-    <div class="producto">
-      <img src="./assest/sofa 1.jpg" alt="Sofá">
-      <h3>Sofá</h3>
-      <p> Este sofá moderno y elegante es el complemento perfecto para cualquier sala de estar. </p>
-      <a href="#" class="btn">Ver detalles</a>
-    </div>
-    <div class="producto">
-      <img src="./assest/Mesa 1.jpg" alt="Mesa">
-      <h3>Mesa</h3>
-      <p> Una elegante mesa de comedor con un diseño moderno, es perfecta para reuniones </p>
-      <a href="#" class="btn">Ver detalles</a>
-    </div>
-    <h2>Referencias</h2>
-    <div class="producto">
-      <img src="./assest/escritorio.jpg" alt="Sofá">
-      <h3>Escritorio</h3>
-      <p>Escritorio funcional es ideal para crear un espacio de trabajo productivo y con estilo.</p>
-      <a href="#" class="btn">Ver detalles</a>
-    </div>
-    <div class="producto">
-      <img src="./assest/biblioteca.jpg" alt="Mesa">
-      <h3>Biblioteca</h3>
-      <p>Es perfecta para organizar y exhibir tu colección de libros y objetos decorativos.</p>
-      <a href="#" class="btn">Ver detalles</a>
-    </div>
+    <section class="productos">
+      <div class="contenido">
+      <h2>Nuestros productos</h2>
 
+      <div class="producto">
+        <img src="./assest/Mesa.jpg" alt="Mesa">
+        <h3>Mesa</h3>
+        <p>Una elegante mesa de comedor con un diseño moderno, es perfecta para reuniones.</p>
+        <a href="./producto.html?producto=mesa" class="btn">Ver detalles</a>
+      </div>
 
-  </section>
-</main>
+      <div class="producto">
+        <img src="./assest/escritorio.jpg" alt="Escritorio">
+        <h3>Escritorio</h3>
+        <p>Escritorio funcional es ideal para crear un espacio de trabajo productivo y con estilo.</p>
+        <a href="./producto.html?producto=escritorio" class="btn">Ver detalles</a>
+      </div>
+
+      <div class="producto">
+        <img src="./assest/biblioteca.jpg" alt="Biblioteca">
+        <h3>Biblioteca</h3>
+        <p>Es perfecta para organizar y exhibir tu colección de libros y objetos decorativos.</p>
+        <a href="./producto.html?producto=biblioteca" class="btn">Ver detalles</a>
+      </div>
+
+      <div class="producto">
+        <img src="./assest/sofa.jpg" alt="Sofá">
+        <h3>Sofá</h3>
+        <p> Este sofá moderno y elegante es el complemento perfecto para cualquier sala de estar. </p>
+        <a href="./producto.html?producto=sofa" class="btn">Ver detalles</a>
+              </div>
+            </div>
+    </section>
+  </main>
   <footer>
     <p>&copy;Ubicados en Cartagena Colombia
       <br>
@@ -65,7 +69,8 @@
 
     </p>
   </footer>
-</body>
-</html>
 
- 
+  <script src="./assest/productos.js"></script>
+</body>
+
+</html>

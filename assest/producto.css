@@ -38,7 +38,7 @@ body {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
+    padding: 20px 20px;
   }
   
   .banner h1 {
@@ -65,43 +65,46 @@ body {
   .btn:hover {
     background-color: #666;
   }
-  
-  /* Estilos de la sección de productos */
-  .productos  {
+
+
+  .producto-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 50px 20px;
-
+    padding: 20px 20px;
+    height: 100vh; /* Ajusta la altura para centrar verticalmente */
   }
   
-  .producto {
-    display: inline-block;
-    width: 300px;
-    margin: 20px;
-
-  }
-  .contenido {
+  .producto-details .contenido {
+    width: 90%;
+    max-width: 500px; /* Ajusta el ancho máximo según tus preferencias */
     transition: box-shadow 0.3s ease-in-out; /* Agrega una transición suave */
-
+  
   }
-  .producto img {
+  
+  .producto-details img {
     width: 100%;
-    max-height: 200px;
+    max-height: 300px; /* Ajusta la altura máxima según tus preferencias */
     object-fit: cover;
     border-radius: 4px;
   }
-    
-  .producto img:hover {
+  
+  .producto-details img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra al pasar el cursor por encima */
   }
-  .producto h3 {
-    margin-top: 10px;
-    font-size: 24px;
+  
+  
+  .producto-details h1 {
+    margin-top: 20px; /* Ajusta el margen superior según tus preferencias */
+    font-size: 28px; /* Ajusta el tamaño de fuente según tus preferencias */
   }
   
-  .producto p {
+  .producto-details p {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
   }
+  
   
   /* Estilos del pie de página */
   footer {
